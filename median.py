@@ -15,6 +15,8 @@ length = len(numbers)
 
 median_index = length // 2
 if length % 2 == 1:
-    median = median_index
+    median = numbers[median_index]
 else:
     median = (numbers[median_index] + numbers[median_index-1])/2
+
+print(median)
